@@ -1,9 +1,12 @@
 import { Blog } from "./blog";
+import { Header } from "@/components/Header";
+import { Content } from "@/components/Content";
 
 export default function Home() {
   return (
     <div>
-      <Blog />
+      <Header />
+      <Content />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { BlogHeader } from "./icons/BlogHeader";
 import { Searchicon } from "./icons/Searchicon";
 export const Header = () => {
   return (
-    <div className="flex p-[32px] px-[350px] flex-row items-center gap-[118px]">
+    <div className="flex justify-center p-[32px] flex-row items-center m-auto gap-[118px]">
       <div>
         <BlogHeader />
       </div>
