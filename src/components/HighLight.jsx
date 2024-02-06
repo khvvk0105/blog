@@ -1,4 +1,5 @@
 export const HighLight = ({ highlight }) => {
+  console.log(highlight);
   return (
     <div className="w-[1216px] shrink-0 mt-[100px] m-auto">
       <div className="text-2xl mb-[30px]">Trending</div>
