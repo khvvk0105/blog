@@ -2,16 +2,18 @@ import { Header } from "@/components/Header";
 import { HighLight } from "@/components/HighLight";
 import { Trending } from "@/components/Trending";
 import { Posts } from "@/components/Posts";
+import { Footer } from "@/components/Footer";
 
 export default function Page(props) {
   const { highlight, post, trending } = props;
-  console.log(post);
+  // console.log(post);
   return (
     <div>
       <Header />
       <HighLight highlight={highlight} />
       <Trending trending={trending} />
       <Posts post={post} />
+      <Footer />
     </div>
   );
 }

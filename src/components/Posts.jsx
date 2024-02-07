@@ -1,6 +1,6 @@
 import { Post1 } from "./Post1";
 export const Posts = ({ post }) => {
-  console.log(post);
+  // console.log(post);
   return (
     <div className=" w-[1216px] m-auto">
       <div className="text-2xl mb-[30px]">All Blog Post</div>
